@@ -1,0 +1,17 @@
+---
+title: "key2"
+output-dir: docs
+format: 
+  pdf:
+    include-in-header: 
+       text: |
+         \usepackage{fvextra}
+         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+         \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
+  html: 
+    toc: true
+execute: 
+  message: false
+  warning: false
+---
+
